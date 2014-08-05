@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- METATAGS -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="Content-Language" content="en-US"/>
+        <title>HTML5 device mockups</title>
+
+        <link rel="stylesheet" type="text/css" href="./device-mockups/device-mockups2.css"/>
+
+        <!-- THE STYLESHEET FOR THE IFRAME AND THE SRC CONTROLS -->
+        <link rel="stylesheet" type="text/css" href="css/iframe.css"/>
+
+        <!-- THE STYLESHEET FOR DEVICE MOCKUPS -->
+        <link rel="stylesheet" type="text/css" href="./device-mockups/device-mockups2.css"/>
+
+    </head>
+
+    <body>
+
+        <h1>HTML5 device mockups.</h1>
+        <nav>
+            <span id="device-tabs">
+                <a data-value="iphone5" data-size-port="300px" data-size-land="600px" data-device-width="640"
+                   data-device-height="1136" data-device-pixel-ratio="2" class="active">iPhone5</a>
+                <a data-value="ipad" data-size-port="600px" data-size-land="800px" data-device-width="768"
+                   data-device-height="1024" data-device-pixel-ratio="1">iPad</a>
+                <a data-value="imac" data-size-port="800px" data-size-land="800px" data-device-width="1920"
+                   data-device-height="1080" data-device-pixel-ratio="1">iMac</a>
+                <a data-value="macbook" data-size-port="800px" data-size-land="800px" data-device-width="2880"
+                   data-device-height="1800" data-device-pixel-ratio="2">MacBook Pro</a>
+                <a data-value="s3" data-size-port="300px" data-size-land="500px" data-device-width="720"
+                   data-device-height="1280" data-device-pixel-ratio="2">Galaxy S3</a>
+                <a data-value="nexus7" data-size-port="300px" data-size-land="500px" data-device-width="800"
+                   data-device-height="1280" data-device-pixel-ratio="1.333">Nexus 7</a>
+                <a data-value="surface" data-size-port="600px" data-size-land="600px" data-device-width="1366"
+                   data-device-height="768" data-device-pixel-ratio="1">Surface</a>
+                <a data-value="lumia920" data-size-port="300px" data-size-land="600px" data-device-width="768"
+                   data-device-height="1280" data-device-pixel-ratio="2">Lumia920</a>
+            </span>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <span id="orientation-tabs">
+                <a data-value="portrait" class="active">Portrait</a>
+                <a data-value="landscape">Landscape</a>
+            </span>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <span id="color-tabs">
+                <a data-value="black" class="active">Color1</a>
+                <a data-value="white">Color2</a>
+            </span>
+        </nav>
+        <pre id="generated-code"><input placeholder="Enter a URL to display" id="iframe-url"><input type="button" id="change-iframe" value="Show &gt;">
+		<div id="resolution-wrapper">Resolution: <input id="resolution-width" style='width:3em;'> x <input id="resolution-height" readonly="readonly" style='width:3em;'> / <input id="pixel-ratio" readonly="readonly" style='width:3em;'><input type="button" id="change-resolution" value="Set &gt;"> Scale: <span class='scale'></span></div>
+		</pre>
+        <div>
+
+            <div class="device-container" style="max-width:300px;" data-size-port="300px" data-size-land="600px">
+                <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
+                    <div class="device">
+                        <div class="screen">
+                            <!-- PUT CONTENTS HERE -->
+                            <iframe id="device-content" src=""></iframe>
+                        </div>
+                        <div class="button">
+                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+
+    </body>
+</html>

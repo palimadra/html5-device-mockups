@@ -109,3 +109,14 @@ Created by:
 Credits for the original graphical renderings of the devices
 used in this package are found in a separate file which is
 provided with this package.
+
+
+Fork by:
+---
+> Sascha Lach
+> mail@voodoocode.de
+> http://voodoocode.de
+
+Credits for the iframe resizing control panel go to http://www.reddit.com/user/lindymad
+
+I added the device-pixel-ratio to respond to HiDPI/retina displays.

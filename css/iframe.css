@@ -1,0 +1,105 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+html {
+    background-image: -webkit-radial-gradient(center center, circle cover, #fff, #cfcfcf 100%);
+    background-image: -moz-radial-gradient(center center, circle cover, #fff, #cfcfcf 100%);
+    background-image: -ms-radial-gradient(center center, circle cover, #fff, #cfcfcf 100%);
+    background-image: -o-radial-gradient(center center, circle cover, #fff, #cfcfcf 100%);
+    background-image: radial-gradient(center center, circle cover, #fff, #cfcfcf 100%);
+}
+
+h1 {
+    line-height: 200%;
+    margin: 30px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    padding: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    display: inline-block;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+nav a.active, nav a:hover {
+    color: #e2e2e2;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.device-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+code, pre {
+    background-color: #e2e2e2;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 1px #ccc solid;
+    display: block;
+    width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#device-content {
+    border: 0;
+}
+
+#iframe-url {
+    width: 700px;
+    border: none;
+    padding: 2px;
+    margin: 0px 10px;
+}
+
+#change-iframe {
+    padding: 2px;
+}
+
+#resolution-wrapper {
+    margin-left: 10px;
+}
+
+#change-resolution {
+    margin-left: 10px;
+}
+
+.device-mockup iframe {
+    top: 0;
+    position: relative;
+    transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -moz-transform-origin: top left;
+}
