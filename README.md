@@ -1,3 +1,10 @@
+HTML5 device mockups fork
+====================
+
+You can view the demo page of the fork here:
+http://voodoocode.github.io/html5-device-mockups/Examples_w_iframes.html
+
+
 HTML5 device mockups
 ====================
 
