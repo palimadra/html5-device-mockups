@@ -4,6 +4,10 @@ HTML5 device mockups fork
 You can view the demo page of the fork here:
 http://voodoocode.github.io/html5-device-mockups/Examples_w_iframes.html
 
+Note: It is proven that some websites such as reddit won't allow being inserted into iframes from foreign domains,
+so if some page can't be displayed, have a look into your dev tools console for an error such as:
+
+    Refused to display 'http://www.somerestrictingpage.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
 
 HTML5 device mockups
 ====================
